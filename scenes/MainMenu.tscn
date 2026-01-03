@@ -1,0 +1,71 @@
+[gd_scene load_steps=3 format=3 uid="uid://bgyv306p7y2ct"]
+
+[ext_resource type="Theme" uid="uid://diqvujd584gjv" path="res://ui/DefaultTheme.tres" id="1_yqorp"]
+[ext_resource type="Script" uid="uid://cstrdbdrm303v" path="res://scripts/MainMenu.gd" id="2_0ykhv"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_yqorp")
+script = ExtResource("2_0ykhv")
+
+[node name="backgroundColor" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0.9395583, 0.37034544, 1)
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MenuVBox" type="VBoxContainer" parent="CenterContainer"]
+custom_minimum_size = Vector2(0, 400)
+layout_mode = 2
+
+[node name="TopSpacer" type="Control" parent="CenterContainer/MenuVBox"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="TitleLabel" type="Label" parent="CenterContainer/MenuVBox"]
+layout_mode = 2
+text = "Apex: An Evolutionary Card Game"
+
+[node name="TutorialButton" type="Button" parent="CenterContainer/MenuVBox"]
+layout_mode = 2
+text = "Tutorial"
+
+[node name="DuelButton" type="Button" parent="CenterContainer/MenuVBox"]
+layout_mode = 2
+text = "Casual Duel (Hotseat)"
+
+[node name="BiomesButton" type="Button" parent="CenterContainer/MenuVBox"]
+layout_mode = 2
+text = "Biomes (Decks)"
+
+[node name="LabButton" type="Button" parent="CenterContainer/MenuVBox"]
+layout_mode = 2
+text = "Genetic Engineering Lab (Card Creation)"
+
+[node name="SettingsButton" type="Button" parent="CenterContainer/MenuVBox"]
+layout_mode = 2
+text = "Settings"
+
+[node name="FooterLabel" type="Label" parent="CenterContainer/MenuVBox"]
+layout_mode = 2
+text = "Prototype v0.1 — © 2026 Jelle Verhaegen"
+
+[node name="BottomSpacer" type="Control" parent="CenterContainer/MenuVBox"]
+layout_mode = 2
+size_flags_vertical = 3
