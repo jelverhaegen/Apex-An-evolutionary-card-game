@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FeatureDef" load_steps=2 format=3 uid="uid://dmdqe7ia4x1f"]
+
+[ext_resource type="Script" uid="uid://b4qfqugu7163f" path="res://resources/FeatureDef.gd" id="1_ygc6d"]
+
+[resource]
+script = ExtResource("1_ygc6d")
+id = "feature.dense_vegetation"
+name = "Dense Vegetation"
+description = "Hard‑to‑navigate vegetation."
+unlocks_by_category = {
+"flora": ["trait.taunt"]
+}
+metadata/_custom_type_script = "uid://b4qfqugu7163f"

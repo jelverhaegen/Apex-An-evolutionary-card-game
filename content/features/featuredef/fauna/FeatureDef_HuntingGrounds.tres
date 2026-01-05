@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FeatureDef" load_steps=2 format=3 uid="uid://bj6rg1v0nm72s"]
+
+[ext_resource type="Script" uid="uid://b4qfqugu7163f" path="res://resources/FeatureDef.gd" id="1_plcaj"]
+
+[resource]
+script = ExtResource("1_plcaj")
+id = "feature.hunting_grounds"
+name = "Hunting Grounds"
+description = "Open terrain for predators."
+unlocks_by_category = {
+"fauna": ["trait.pack_instinct"]
+}
+metadata/_custom_type_script = "uid://b4qfqugu7163f"

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="TraitDef" load_steps=2 format=3 uid="uid://b7a5lbhth5ya6"]
+
+[ext_resource type="Script" uid="uid://tvykc5unsjyu" path="res://resources/TraitDef.gd" id="1_e5wob"]
+
+[resource]
+script = ExtResource("1_e5wob")
+id = "trait.stealth"
+name = "Stealth"
+description = "Cannot be targeted until it attacks or is the last organism in its zone."
+categories = Array[String](["[\"fauna\"]"])
+ep_bounds = {
+"max": 10,
+"min": 0
+}
+current_ep_steps = Array[int]([2])
+stacking_rules = {
+"max_stacks": "1"
+}
+metadata/_custom_type_script = "uid://tvykc5unsjyu"

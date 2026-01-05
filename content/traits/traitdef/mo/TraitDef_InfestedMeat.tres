@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TraitDef" load_steps=2 format=3 uid="uid://dt6drcf5701fh"]
+
+[ext_resource type="Script" uid="uid://tvykc5unsjyu" path="res://resources/TraitDef.gd" id="1_fxmgl"]
+
+[resource]
+script = ExtResource("1_fxmgl")
+id = "trait.infested_meat"
+name = "Infested Meat"
+description = "Whenever a Carnivore attacks a Fauna, it receives +1 extra damage back per stack."
+categories = Array[String](["[\"microorganism\"]"])
+is_single_instance = false
+current_ep_steps = Array[int]([1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+stacking_rules = {
+"max_stacks": 15
+}
+metadata/_custom_type_script = "uid://tvykc5unsjyu"

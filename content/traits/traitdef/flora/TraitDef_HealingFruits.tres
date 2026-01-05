@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TraitDef" load_steps=2 format=3 uid="uid://behjjgpk06s4y"]
+
+[ext_resource type="Script" uid="uid://tvykc5unsjyu" path="res://resources/TraitDef.gd" id="1_fb5ej"]
+
+[resource]
+script = ExtResource("1_fb5ej")
+id = "trait.healing_fruits"
+name = "Healing Fruits"
+description = "Activate: Heal all allied Fauna by +1 per stack."
+categories = Array[String](["[\"flora\"]"])
+is_single_instance = false
+current_ep_steps = Array[int]([1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+stacking_rules = {
+"max_stacks": 15
+}
+metadata/_custom_type_script = "uid://tvykc5unsjyu"

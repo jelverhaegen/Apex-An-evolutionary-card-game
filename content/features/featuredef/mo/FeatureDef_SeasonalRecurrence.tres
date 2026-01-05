@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FeatureDef" load_steps=2 format=3 uid="uid://dqenqyvqhv2al"]
+
+[ext_resource type="Script" uid="uid://b4qfqugu7163f" path="res://resources/FeatureDef.gd" id="1_alef1"]
+
+[resource]
+script = ExtResource("1_alef1")
+id = "feature.seasonal_recurrence"
+name = "Seasonal Recurrence"
+description = "Represents recurring disease."
+unlocks_by_category = {
+"microorganism": ["trait.infect"]
+}
+metadata/_custom_type_script = "uid://b4qfqugu7163f"

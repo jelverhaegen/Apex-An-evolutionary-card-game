@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TraitDef" load_steps=2 format=3 uid="uid://drmk38xudr7h6"]
+
+[ext_resource type="Script" uid="uid://tvykc5unsjyu" path="res://resources/TraitDef.gd" id="1_11w3c"]
+
+[resource]
+script = ExtResource("1_11w3c")
+id = "trait.fast_metabolism"
+name = "Fast Metabolism"
+description = "After this organism attacks, it heals +1 per stack."
+categories = Array[String](["[\"fauna\"]"])
+is_single_instance = false
+current_ep_steps = Array[int]([1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+stacking_rules = {
+"max_stacks": 15
+}
+metadata/_custom_type_script = "uid://tvykc5unsjyu"

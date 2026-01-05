@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FeatureDef" load_steps=2 format=3 uid="uid://bejfc0dfrxyd0"]
+
+[ext_resource type="Script" uid="uid://b4qfqugu7163f" path="res://resources/FeatureDef.gd" id="1_cabvr"]
+
+[resource]
+script = ExtResource("1_cabvr")
+id = "feature.tall_grass"
+name = "Tall grass"
+description = "Place for fauna to hide."
+unlocks_by_category = {
+"fauna": ["trait.stealth"]
+}
+metadata/_custom_type_script = "uid://b4qfqugu7163f"

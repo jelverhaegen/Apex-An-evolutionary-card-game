@@ -1,0 +1,139 @@
+[gd_resource type="Resource" script_class="StatCostTables" load_steps=2 format=3 uid="uid://dd1fcx450gnaj"]
+
+[ext_resource type="Script" uid="uid://cnnbclkxvi82h" path="res://resources/StatCostTables.gd" id="1_j6ltc"]
+
+[resource]
+script = ExtResource("1_j6ltc")
+base_stats = {
+"fauna": {
+1: {
+"atk": 0,
+"hp": 1
+},
+2: {
+"atk": 1,
+"hp": 1
+},
+3: {
+"atk": 1,
+"hp": 2
+},
+4: {
+"atk": 2,
+"hp": 2
+},
+5: {
+"atk": 2,
+"hp": 2
+},
+6: {
+"atk": 2,
+"hp": 3
+},
+7: {
+"atk": 3,
+"hp": 2
+},
+8: {
+"atk": 3,
+"hp": 3
+},
+9: {
+"atk": 2,
+"hp": 4
+},
+10: {
+"atk": 3,
+"hp": 4
+}
+},
+"flora": {
+1: {
+"atk": 0,
+"hp": 1
+},
+2: {
+"atk": 0,
+"hp": 2
+},
+3: {
+"atk": 0,
+"hp": 3
+},
+4: {
+"atk": 0,
+"hp": 4
+},
+5: {
+"atk": 0,
+"hp": 4
+},
+6: {
+"atk": 0,
+"hp": 5
+},
+7: {
+"atk": 0,
+"hp": 5
+},
+8: {
+"atk": 0,
+"hp": 6
+},
+9: {
+"atk": 0,
+"hp": 6
+},
+10: {
+"atk": 0,
+"hp": 7
+}
+}
+}
+me_tier_ep_additions = {
+"Microorganism": {
+1: 4,
+2: 7,
+3: 10,
+4: 13,
+5: 16,
+6: 19,
+7: 22,
+8: 25,
+9: 28,
+10: 31
+},
+"fauna": {
+1: 4,
+2: 7,
+3: 10,
+4: 13,
+5: 16,
+6: 19,
+7: 22,
+8: 25,
+9: 28,
+10: 31
+},
+"flora": {
+1: 4,
+2: 7,
+3: 10,
+4: 13,
+5: 16,
+6: 19,
+7: 22,
+8: 25,
+9: 28,
+10: 31
+}
+}
+attack_ep_steps = {
+"Flora": [],
+"fauna": [2, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+}
+health_ep_steps = {
+"fauna": [3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+"flora": [4, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+}
+metadata/_custom_type_script = "uid://cnnbclkxvi82h"

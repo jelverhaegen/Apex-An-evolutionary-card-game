@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FeatureDef" load_steps=2 format=3 uid="uid://dny7sqfl7kgrp"]
+
+[ext_resource type="Script" uid="uid://b4qfqugu7163f" path="res://resources/FeatureDef.gd" id="1_nmkd7"]
+
+[resource]
+script = ExtResource("1_nmkd7")
+id = "feature.spiny_thickets"
+name = "Spiny Thickets"
+description = "Represents thorny vegetation."
+unlocks_by_category = {
+"flora": ["trait.thorns"]
+}
+metadata/_custom_type_script = "uid://b4qfqugu7163f"

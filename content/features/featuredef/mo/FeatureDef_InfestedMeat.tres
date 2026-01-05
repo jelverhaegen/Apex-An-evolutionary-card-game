@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FeatureDef" load_steps=2 format=3 uid="uid://b6rfo0pvafojk"]
+
+[ext_resource type="Script" uid="uid://b4qfqugu7163f" path="res://resources/FeatureDef.gd" id="1_vvoqy"]
+
+[resource]
+script = ExtResource("1_vvoqy")
+id = "feature.infested_meat"
+name = "Infested Meat"
+description = "Represents infested meat."
+unlocks_by_category = {
+"microorganism": ["trait.infested_meat"]
+}
+metadata/_custom_type_script = "uid://b4qfqugu7163f"

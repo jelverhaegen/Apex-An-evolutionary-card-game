@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FeatureDef" load_steps=2 format=3 uid="uid://rqr1wfmqfqe0"]
+
+[ext_resource type="Script" uid="uid://b4qfqugu7163f" path="res://resources/FeatureDef.gd" id="1_lj24y"]
+
+[resource]
+script = ExtResource("1_lj24y")
+id = "feature.fruit_grove"
+name = "Fruit Grove"
+description = "Represents abundant fruit."
+unlocks_by_category = {
+"flora": ["trait.healing_fruits"]
+}
+metadata/_custom_type_script = "uid://b4qfqugu7163f"

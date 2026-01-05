@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FeatureDef" load_steps=2 format=3 uid="uid://brj82o3uu8hax"]
+
+[ext_resource type="Script" uid="uid://b4qfqugu7163f" path="res://resources/FeatureDef.gd" id="1_g66qm"]
+
+[resource]
+script = ExtResource("1_g66qm")
+id = "feature.pandemic_prone"
+name = "Pandemic‑Prone"
+description = "Microorganisms that negatively affect all Flora and Fauna."
+unlocks_by_category = {
+"microorganism": ["trait.pandemic"]
+}
+metadata/_custom_type_script = "uid://b4qfqugu7163f"

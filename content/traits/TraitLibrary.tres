@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="TraitLibrary" load_steps=12 format=3 uid="uid://nspxdea1m4yp"]
+
+[ext_resource type="Script" uid="uid://cev26mfwsbwbc" path="res://resources/TraitLibrary.gd" id="1_3h8co"]
+[ext_resource type="Script" uid="uid://tvykc5unsjyu" path="res://resources/TraitDef.gd" id="2_oypjo"]
+[ext_resource type="Resource" uid="uid://b7a5lbhth5ya6" path="res://content/traits/traitdef/fauna/TraitDef_Stealth.tres" id="3_nlglh"]
+[ext_resource type="Resource" uid="uid://bq5wkftq54dn1" path="res://content/traits/traitdef/fauna/TraitDef_PackInstinct.tres" id="4_8wb0k"]
+[ext_resource type="Resource" uid="uid://drmk38xudr7h6" path="res://content/traits/traitdef/fauna/TraitDef_FastMetabolism.tres" id="5_csggr"]
+[ext_resource type="Resource" uid="uid://c76sdybi3h0q6" path="res://content/traits/traitdef/flora/TraitDef_Taint.tres" id="6_bl6hi"]
+[ext_resource type="Resource" uid="uid://behjjgpk06s4y" path="res://content/traits/traitdef/flora/TraitDef_HealingFruits.tres" id="7_ykgy0"]
+[ext_resource type="Resource" uid="uid://b3fxopfbn2ra0" path="res://content/traits/traitdef/flora/TraitDef_Thorns.tres" id="8_8lrlm"]
+[ext_resource type="Resource" uid="uid://baqxqvdoggmpk" path="res://content/traits/traitdef/mo/TraitDef_Pandemic.tres" id="9_3gl1d"]
+[ext_resource type="Resource" uid="uid://crju7u2jyevyc" path="res://content/traits/traitdef/mo/TraitDef_Infect.tres" id="10_ef6hw"]
+[ext_resource type="Resource" uid="uid://dt6drcf5701fh" path="res://content/traits/traitdef/mo/TraitDef_InfestedMeat.tres" id="11_333ms"]
+
+[resource]
+script = ExtResource("1_3h8co")
+traits = Array[ExtResource("2_oypjo")]([ExtResource("3_nlglh"), ExtResource("4_8wb0k"), ExtResource("5_csggr"), ExtResource("6_bl6hi"), ExtResource("7_ykgy0"), ExtResource("8_8lrlm"), ExtResource("9_3gl1d"), ExtResource("10_ef6hw"), ExtResource("11_333ms")])
+metadata/_custom_type_script = "uid://cev26mfwsbwbc"

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="FeatureLibrary" load_steps=12 format=3 uid="uid://gn6avaxvgeld"]
+
+[ext_resource type="Script" uid="uid://b4qfqugu7163f" path="res://resources/FeatureDef.gd" id="1_gondm"]
+[ext_resource type="Script" uid="uid://dug4g0igwvv16" path="res://resources/FeatureLibrary.gd" id="2_2skr2"]
+[ext_resource type="Resource" uid="uid://bejfc0dfrxyd0" path="res://content/features/featuredef/fauna/FeatureDef_TallGrass.tres" id="2_pmwlq"]
+[ext_resource type="Resource" uid="uid://b6rfo0pvafojk" path="res://content/features/featuredef/mo/FeatureDef_InfestedMeat.tres" id="3_vihkq"]
+[ext_resource type="Resource" uid="uid://rqr1wfmqfqe0" path="res://content/features/featuredef/flora/FeatureDef_FruitGrove.tres" id="4_cey2j"]
+[ext_resource type="Resource" uid="uid://brj82o3uu8hax" path="res://content/features/featuredef/mo/FeatureDef_PandemicProne.tres" id="5_xx277"]
+[ext_resource type="Resource" uid="uid://dny7sqfl7kgrp" path="res://content/features/featuredef/flora/FeatureDef_SpinyThickets.tres" id="6_vx1lb"]
+[ext_resource type="Resource" uid="uid://bj6rg1v0nm72s" path="res://content/features/featuredef/fauna/FeatureDef_HuntingGrounds.tres" id="7_wsp2i"]
+[ext_resource type="Resource" uid="uid://dmdqe7ia4x1f" path="res://content/features/featuredef/flora/FeatureDef_DenseVegetation.tres" id="8_4hmve"]
+[ext_resource type="Resource" uid="uid://dqenqyvqhv2al" path="res://content/features/featuredef/mo/FeatureDef_SeasonalRecurrence.tres" id="9_yf7uw"]
+[ext_resource type="Resource" uid="uid://c4f0w7wul7cp" path="res://content/features/featuredef/fauna/FeatureDef_SunDrenchedPlains.tres" id="10_kwsvb"]
+
+[resource]
+script = ExtResource("2_2skr2")
+features = Array[ExtResource("1_gondm")]([ExtResource("2_pmwlq"), ExtResource("3_vihkq"), ExtResource("4_cey2j"), ExtResource("5_xx277"), ExtResource("6_vx1lb"), ExtResource("7_wsp2i"), ExtResource("8_4hmve"), ExtResource("9_yf7uw"), ExtResource("10_kwsvb")])
+metadata/_custom_type_script = "uid://dug4g0igwvv16"
